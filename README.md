@@ -2,9 +2,21 @@
 
 Next.js + Tailwind UI for the backend file service (upload/list/download/delete PDFs).
 
-### Run
-- `npm install`
-- `npm run dev` (defaults to http://localhost:3000)
+### Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nmnnrb/pdfUpload_frontend.git
+   cd pdfUpload_frontend/frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the dev server:
+   ```bash
+   npm run dev
+   ```
+   Opens on http://localhost:3000 by default.
 
 ### Backend API base
 - Defaults to `http://localhost:3000`.
